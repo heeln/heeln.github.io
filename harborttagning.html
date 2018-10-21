@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <title>Hårborttagning - Elisabeth Care</title>
+  <meta name="description" content="Hårborttaging - Elisabeth Care" />
+  <script src="file:scripts/include-html.js"></script>
+</head>
+
+<body>
+  <div class="toprow">
+    <!-- Here, the top of the page is included from another html file -->
+    <div w3-include-html="sidhuvud.html"></div>
+  </div>
+
+  <div class="middlerow">
+    <!-- Here, the menu (<nav> object) is included from another html file -->
+    <div w3-include-html="menu.html"></div>
+
+    <main>
+      <article>
+        <header>
+          <h1>Hårborttagning</h1>
+          <p>Glöm rakhyveln och få ett snyggt hållbart resultat.</p>
+        </header>
+        <section>
+          <h3>Våra behandlingar</h3>
+          <table class="durationpricetable">
+            <tr>
+              <td>Hela ben, samt bikinilinje</td>
+              <td class="duration">60</td>
+              <td class="price">575</td>
+            </tr>
+            <tr>
+              <td>Halva ben, samt bikinilinje</td>
+              <td class="duration">40</td>
+              <td class="price">420</td>
+            </tr>
+            <tr>
+              <td>Hela ben</td>
+              <td class="duration">40</td>
+              <td class="price">420</td>
+            </tr>
+            <tr>
+              <td>Halva ben</td>
+              <td class="duration">30</td>
+              <td class="price">420</td>
+            </tr>
+            <tr>
+              <td>Bikinilinje</td>
+              <td class="duration">15</td>
+              <td class="price">220</td>
+            </tr>
+            <tr>
+              <td>Rygg</td>
+              <td class="duration">40</td>
+              <td class="price">420</td>
+            </tr>
+            <tr>
+              <td>Mage</td>
+              <td class="duration">30</td>
+              <td class="price">320</td>
+            </tr>
+            <tr>
+              <td>Bröst</td>
+              <td class="duration">30</td>
+              <td class="price">320</td>
+            <tr>
+              <td>Mage och bröst</td>
+              <td class="duration">60</td>
+              <td class="price">575</td>
+            </tr>
+            <tr>
+              <td>Överläpp och haka (pincettbehandling)</td>
+              <td class="duration">15</td>
+              <td class="price">220</td>
+            </tr>
+          </table>
+      </article>
+    </main>
+  </div>
+
+  <div class="bottomrow">
+    <!-- Here, the bottom of the page is included from another html file -->
+    <div w3-include-html="sidfot.html"></div>
+  </div>
+
+</body>
+
+<script>
+  // To include other html pages
+  includeHTML();
+</script>
+
+</html>
